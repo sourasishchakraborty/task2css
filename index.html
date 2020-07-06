@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campus{X}</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#table1 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 25px;
+  margin-top: 10px;
+
+}
+ #table1 th {
+  border: solid #dddddd;
+  border-width: 1px 0 ;
+  text-align: left;
+  padding: 8px;
+  height: 30px;
+
+}
+#table1 td{
+	color: #666666 ;
+  font-size: 15px;
+  border: solid #dddddd;
+  border-width: 1px 0 ;
+  text-align: left;
+  padding: 8px;
+  height: 30px;
+}
+body{
+	font-family: sans-serif;
+}
+
+
+#table2 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+  width: 100%;
+
+}
+
+ #table2 th {
+  border: 1px solid #EAEAEA;
+  text-align: center;
+  padding: 8px;
+  height: 30px;
+}
+#table2 td{
+	color: #666666  ;
+  font-size: 15px;
+  border: 1px solid #EAEAEA;
+  padding: 10px;
+  height: 30px;
+  padding-left: 10px;
+  text-align: center;
+
+  
+}
+
+#table2 p{
+	color: #009b72;
+	font-size:18px;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+#table2 tr:nth-child(even) {
+  background-color: #F0F0F0  ;
+}
+
+#table2 i{
+	font-size: 12px;
+	color: #585858  ;
+	font-weight: bold;
+	
+}
+
+
+
+</style>
+<body>
+	
+		<div class="navbar">
+			<img src="unnamed.jpg" style="height:40px;width: 40px;float: left;padding-top: 5px; padding-left: 35px;">
+			<h3 style="padding-left: 14px;padding-top: 14px;float: left;">CAMPUSX</h3>
+		</div>
+	
+		<div class="container">
+			<div style="height: 80px;">
+				<h1 class="text-color ml-30" style="font-size: 40px;">Dashboard</h1>
+			</div>
+
+			<div>
+				<div style="height: 160px;max-width: 100%">
+					<div class="box ml-30 ">
+						<h3 class="text-color text-align" ><u>Total Score</u></h3>
+						<h1 class="box_number">101.5</h1>
+					</div>
+					<div class="box ml-30">
+						<h3 class="text-color text-align"><u>Class Rank</u></h3>
+						<h1 class="box_number">5</h1>
+					</div>
+					<div class="box ml-30" >
+						<h3 class="text-color text-align"><u>Late Submissions</u></h3>
+						<h1 class="box_number">0</h1>
+					</div>
+					<div class="box ml-30">
+						<h3 class="text-color text-align"><u>Tasks Won</u></h3>
+						<h1 class="box_number">2</h1>
+					</div>
+				</div>
+
+				<div style="float: left;width: 94%;" class="ml-30">
+					<div style="width:100%;border: 1px solid #EEEEEE; margin-top: 20px; border-radius: 5px;margin-left: 10px; " >
+						<div class="navbar" style="background-color: #EEEEEE">
+							<div class="task_update">
+								<h4 style="margin-left: 15px; font-size: 16px;color: #A7A7A7;padding-top: 10px;">Pending Tasks</h4>
+							</div>
+							<div class="task_update" style="background-color: white;height: 100%;">
+								<h4 style="margin-left: 17px;font-size: 16px;color: #009b72;margin-top: 10px;">Evaluated Tasks</h4>
+							</div>
+							<div class="task_update">
+								<h4 style="margin-left: 15px;font-size: 16px;color: #A7A7A7;margin-top: 10px;">Submitted Tasks</h4>
+							</div>
+						</div>
+						<div style="width: 96%; border: 1px solid #EEEEEE;  margin-left: 20px;margin-top: 20px;margin-bottom: 20px;">
+
+							<table id="table2">
+								<tr>
+									<th>SNo.</th>
+									<th>Type</th>
+									<th>Name</th>
+									<th>Evaluated On</th>
+									<th>Late Sub</th>
+									<th>Score</th>
+									<th>Winner</th>
+
+
+
+								</tr>
+								<tr>
+									<td><b>1</b></td>
+									<td><b>Task</b></td>
+									<td><p>Write a blog on How does the internet work?</p><br><p style="text-align: left;"><i>content - 4/5 language - 4/5 examples - 4/5</i></p></td>
+									<td><b>30th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>12</b></td>
+									<td><b>0</b></td>
+
+								</tr>
+								<tr>
+									<td><b>2</b></td>
+									<td><b>Task</b></td>
+									<td><p>HTML Task #2</p><br><p style="text-align: left;"><i>Great work</i></p></td>
+									<td><b>30th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>9.5</b></td>
+									<td><b>1</b></td>
+
+								</tr>
+								<tr>
+									<td><b>3</b></td>
+									<td><b>Task</b></td>
+									<td><p>Build a Brain Game using Scratch | Hackathon #1</p><br><p style="text-align: left;"><i>Gameplay - 8/10 Game Design - 8.5/10 True to problem statement - 5/5 Mast bana hai game thoda improve kar sakte ho in terms of game play and design.</i></p></td>
+									<td><b>29th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>21.5</b></td>
+									<td><b>0</b></td>
+
+								</tr>
+								<tr>
+									<td><b>4</b></td>
+									<td><b>Task</b></td>
+									<td><p>Build a Resume using HTML</p><br><p style="text-align: left;"><i>Vacant spaces ko thoda utilize karo Sourasish</i></p></td>
+									<td><b>27th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>8.5</b></td>
+									<td><b>0</b></td>
+
+								</tr>
+								<tr>
+									<td><b>5</b></td>
+									<td><b>Task</b></td>
+									<td><p>Build a portfolio website</p><br><p style="text-align: left;"><i>About wale ko thoda aur improve karo</i></p></td>
+									<td><b>19th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>13.5</b></td>
+									<td><b>0</b></td>
+
+								</tr>
+								<tr>
+									<td><b>6</b></td>
+									<td><b>Task</b></td>
+									<td><p>Online Resume</p><br><p style="text-align: left;"><i>Great work Sourasish</i></p></td>
+									<td><b>16th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>18.5</b></td>
+									<td><b>0</b></td>
+
+								</tr>
+								<tr>
+									<td><b>7</b></td>
+									<td><b>Task</b></td>
+									<td><p>Github Profile Creation</p><br><p style="text-align: left;"><i>Perfect</i></p></td>
+									<td><b>12th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>10</b></td>
+									<td><b>1</b></td>
+
+								</tr>
+								<tr>
+									<td><b>8</b></td>
+									<td><b>Task</b></td>
+									<td><p>Linkedin Profile create/update</p><br><p style="text-align: left;"><i>Great work Sourasish Here are a few pointers 1. Great dp and cover photo 2. Add 'Aspiring Web Developer' in your title 3. You need to work on your About section 4. Add your web development projects, atleast Zomato wala</i></p></td>
+									<td><b>10th Jun</b></td>
+									<td><b>0</b></td>
+									<td><b>8</b></td>
+									<td><b>0</b></td>
+
+								</tr>
+							</table>
+							
+						</div>
+					</div>
+				</div>
+
+
+				
+			
+
+
+			</div>
+			
+
+
+
+		
+			
+			<div style="height: 450px; width: 100%; float: left; margin-top: 20px;  " class="ml-30">
+				<div style="height: 400px; width: 450px;border: 1px solid #EEEEEE;float: left;border-radius: 5px;">
+					<h1 style="font-size: 22px;padding-left: 25px;padding-top: 35px;color: #192d35"><b>Leaderboard</b></h1>
+					<div style="height: 300px; overflow-y: scroll;">
+						<table id="table1">
+						  <tr>
+						    <th>S No.</th>
+						    <th>Name</th>
+						    <th>Score</th>
+						  </tr>
+						  <tr>
+						    <td><b>1</b></td>
+						    <td><b>Sayan</b></td>
+						    <td><b>105.5</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>2</b></td>
+						    <td><b>Ankita</b></td>
+						    <td><b>104.5</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>3</b></td>
+						    <td><b>Ranjan</b></td>
+						    <td><b>103.5</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>4</b></td>
+						    <td><b>Abhirup</b></td>
+						    <td><b>103</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>5</b></td>
+						    <td><b>Sourasish</b></td>
+						    <td><b>101.5</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>6</b></td>
+						    <td><b>Pallavi</b></td>
+						    <td><b>100</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>7</b></td>
+						    <td><b>Partha</b></td>
+						    <td><b>98.5</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>8</b></td>
+						    <td><b>Sebabrata</b></td>
+						    <td><b>97.5</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>9</b></td>
+						    <td><b>Prithwish</b></td>
+						    <td><b>97.5</b></td>
+						  </tr>
+						  <tr>
+						    <td><b>10</b></td>
+						    <td><b>Sagnik</b></td>
+						    <td><b>97</b></td>
+						  </tr>
+						  
+						</table>
+					</div>
+					
+				</div>
+				<div style="height: 450px; width: 585px;border: 1px solid #EEEEEE; float: left;margin-left: 25px; background-color: #009b72; border-radius: 5px;">
+					<h1 style="font-size: 22px;padding-left: 25px;padding-top: 35px;color: white"><b>Student Performance</b></h1>
+					<img src="https://image.shutterstock.com/image-vector/simple-infographic-line-chart-sky-260nw-534979027.jpg" style="margin-top: 50px; margin-left: 100px;">
+				</div>
+			</div>
+			
+		</div>	
+			
+				
+		
+
+		
+	
+	
+</body>
+</html>
